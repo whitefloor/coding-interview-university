@@ -651,9 +651,9 @@
         - [4 ways to count bits in a byte (影片)](https://youtu.be/Hzuzo9NJrlc)
         - [Count Bits](https://graphics.stanford.edu/~seander/bithacks.html#CountBitsSetKernighan)
         - [How To Count The Number Of Set Bits In a 32 Bit Integer](http://stackoverflow.com/questions/109023/how-to-count-the-number-of-set-bits-in-a-32-bit-integer)
-    - [ ] swap values:
+    - [x] swap values:
         - [Swap](https://bits.stephan-brumme.com/swap.html)
-    - [ ] 絕對值:
+    - [x] 絕對值:
         - [Absolute Integer](https://bits.stephan-brumme.com/absInteger.html)
 
 ## 樹狀結構(Tree)
