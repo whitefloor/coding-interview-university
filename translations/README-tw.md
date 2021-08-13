@@ -514,28 +514,28 @@
         - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
     - [ ] 實作動態陣列(可變、可動態調整大小的陣列)
-        - [ ] 練習在程式中用陣列以及指標，透過計算指標而存取該內容，而不是直接用索引。
-        - [ ] 直接動態生成一個新的陣列
+        - [x] 練習在程式中用陣列以及指標，透過計算指標而存取該內容，而不是直接用索引。
+        - [x] 直接動態生成一個新的陣列
             - 可以生成一個int型別的陣列，但不要使用語言提供的功能
             - 從16，或者更大的數開始寫，像是2的次方 - 16、32、64、128。
-        - [ ] size() - 陣列中元素個數
-        - [ ] capacity() - 陣列能存的最大元素個數
-        - [ ] is_empty()
-        - [ ] at(index) - 傳回該索引值的元素，附有邊界檢查(boundary check)
-        - [ ] push(item)
-        - [ ] insert(index, item) - 把元素插入該索引值，把原本在該索引值的元素往右邊移動。
-        - [ ] prepend(item) - 可以把元素插入索引值為0的地方。
-        - [ ] pop() - 移除陣列中最後一個元素，並回傳該元素的值。
-        - [ ] delete(index) - 刪除在該索引值的元素，並且把右邊剩下元素全部往左移。
-        - [ ] remove(item) - 從陣列中尋找該數值，並且移除他(就算陣列中數個地方都有這個數值)。
-        - [ ] find(item) - 從陣列中尋找該數值，並且傳回最前面找到該數值的索引值，如果沒有則傳回-1。
-        - [ ] resize(nex_capacity) // private function
+        - [x] size() - 陣列中元素個數
+        - [x] capacity() - 陣列能存的最大元素個數
+        - [x] is_empty()
+        - [x] at(index) - 傳回該索引值的元素，附有邊界檢查(boundary check)
+        - [x] push(item)
+        - [x] insert(index, item) - 把元素插入該索引值，把原本在該索引值的元素往右邊移動。
+        - [x] prepend(item) - 可以把元素插入索引值為0的地方。
+        - [x] pop() - 移除陣列中最後一個元素，並回傳該元素的值。
+        - [x] delete(index) - 刪除在該索引值的元素，並且把右邊剩下元素全部往左移。
+        - [x] remove(item) - 從陣列中尋找該數值，並且移除他(就算陣列中數個地方都有這個數值)。
+        - [x] find(item) - 從陣列中尋找該數值，並且傳回最前面找到該數值的索引值，如果沒有則傳回-1。
+        - [] resize(nex_capacity) // private function
             - 當陣列已經用盡了所有容量後，把陣列的容量*2。
             - 如果移除掉一個元素後，陣列實際大小是最大容量的1/4，則把陣列容量減半。
-        - [ ] 時間複雜度
+        - [x] 時間複雜度
             - O(1) 在陣列末端插入/刪除元素
             - O(n) 在任何地方插入/刪除元素
-        - [ ] 空間複雜度
+        - [x] 空間複雜度
             - 在記憶體中的存放位置是連續的，這種儲存方式有助於存取的性能。
             - 所需空間 = (陣列容量，>=n) * 元素所需大小，但就算結果為2n，實際上仍算成O(n)
 
@@ -614,7 +614,7 @@
             - [Instant Uploads And Storage Optimization In Dropbox (影片)](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [Distributed Hash Tables (影片)](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] 實作雜湊表(用陣列以及線性探測(linear probing))
+    - [x] 實作雜湊表(用陣列以及線性探測(linear probing))
         - hash(k, m) - m:雜湊表的大小
         - add(key, value) - 如果key已經存在，則更新該key的value
         - exists(key)
@@ -916,22 +916,22 @@
 - ### 設計模式
 - [ ] [Quick UML review(影片)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
     - [ ] 學學這些設計模式:
-        - [ ] strategy
+        - [x] strategy
         - [ ] singleton
-        - [ ] adapter
+        - [x] adapter
         - [ ] prototype
         - [ ] decorator
         - [ ] visitor
-        - [ ] factory, abstract factory
+        - [x] factory, abstract factory
         - [ ] facade
-        - [ ] observer
+        - [x] observer
         - [ ] proxy
         - [ ] delegate
-        - [ ] command
+        - [x] command
         - [ ] state
         - [ ] memento
         - [ ] iterator
-        - [ ] composite
+        - [x] composite
         - [ ] flyweight
     - [ ] [Chapter 6 (Part 1) - Patterns (影片)](https://youtu.be/LAP2A80Ajrg?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO&t=3344)
     - [ ] [Chapter 6 (Part 2) - Abstraction-Occurrence, General Hierarchy, Player-Role, Singleton, Observer, Delegation (影片)](https://www.youtube.com/watch?v=U8-PGsjvZc4&index=12&list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
